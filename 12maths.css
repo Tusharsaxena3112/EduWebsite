@@ -1,0 +1,43 @@
+body{
+	margin:0px;
+	background:linear-gradient(to right, rgb(0, 255, 64), rgb(128, 0, 128));
+}
+.grid{
+	display: grid;
+	grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+	grid-gap: 15px;
+}
+.box{
+	padding: 130px;
+	margin: 20px;
+	background-color:pink;
+	transition: all 1s;
+}
+.box:hover{
+	transform: rotate(-10deg);
+}
+.yellow{
+	background-color: yellow;	
+}
+.nav{
+	display: flex;
+	flex-wrap: wrap;
+	background: skyblue;
+	/*margin:15px;*/
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration:none; 
+	font-size: 20px;
+}
+a:hover{
+	color: red;
+}
+li{
+	padding: 20px;
+}
+.push{
+	margin-left:auto;
+}
